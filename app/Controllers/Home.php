@@ -9,8 +9,11 @@ class Home extends BaseController
     //     return view('welcome_message');
     // }    
     
-    public function index(): string
-    {
+    public function index()
+    {               
+        if (session()->get('num_user') == '') {
+            return redirect()->to('/login');
+        }     
         return view('header').view('menu').view('dashboard').view('footer');
     }
 }

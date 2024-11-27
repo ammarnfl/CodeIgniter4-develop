@@ -1,0 +1,770 @@
+DEBUG - 2024-11-26 04:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-26 04:56:13 --> TypeError: App\Controllers\About::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: about]
+in APPPATH\Controllers\About.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\About->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-11-26 09:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-26 09:41:08 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-11-26 09:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-26 09:41:09 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-11-26 09:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-26 09:41:18 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-11-26 09:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-26 09:42:02 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-11-26 09:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-26 09:42:19 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-11-26 09:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-26 09:42:20 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-11-26 09:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-26 09:42:20 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-11-26 09:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-26 09:42:20 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-11-26 09:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-26 09:42:50 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-11-26 09:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-26 09:43:07 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-11-26 09:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-26 09:43:08 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-11-26 09:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-26 09:43:08 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-11-26 09:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-26 09:43:08 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-11-26 09:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-26 09:43:08 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-11-26 09:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-26 09:43:08 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-11-26 09:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-26 09:43:25 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-11-26 09:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-26 09:52:37 --> mysqli_sql_exception: Table 'foodmart.users' doesn't exist in D:\CodeIgniter4-develop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\CodeIgniter4-develop\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FRO...', 0)
+#1 D:\CodeIgniter4-develop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FRO...')
+#2 D:\CodeIgniter4-develop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FRO...')
+#3 D:\CodeIgniter4-develop\app\Models\FoodmartAuth.php(10): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#4 D:\CodeIgniter4-develop\app\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d...')
+#5 D:\CodeIgniter4-develop\system\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+#6 D:\CodeIgniter4-develop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+#7 D:\CodeIgniter4-develop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\CodeIgniter4-develop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\CodeIgniter4-develop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\CodeIgniter4-develop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\CodeIgniter4-develop\system\rewrite.php(44): require_once('D:\\CodeIgniter4...')
+#12 {main}
+CRITICAL - 2024-11-26 09:52:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'foodmart.users' doesn't exist
+[Method: GET, Route: foodmartAPI/ammarnfl/password]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\FoodmartAuth.php(10): CodeIgniter\Database\BaseConnection->query('SELECT name FROM users
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 2 APPPATH\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2024-11-26 09:52:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'foodmart.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM users
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM users
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 3 APPPATH\Models\FoodmartAuth.php(10): CodeIgniter\Database\BaseConnection->query('SELECT name FROM users
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 4 APPPATH\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2024-11-26 09:52:37 --> [Caused by] mysqli_sql_exception: Table 'foodmart.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FROM users
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM users
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM users
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 4 APPPATH\Models\FoodmartAuth.php(10): CodeIgniter\Database\BaseConnection->query('SELECT name FROM users
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 5 APPPATH\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+ERROR - 2024-11-26 09:54:47 --> mysqli_sql_exception: Table 'foodmart.users' doesn't exist in D:\CodeIgniter4-develop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\CodeIgniter4-develop\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FRO...', 0)
+#1 D:\CodeIgniter4-develop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FRO...')
+#2 D:\CodeIgniter4-develop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FRO...')
+#3 D:\CodeIgniter4-develop\app\Models\FoodmartAuth.php(10): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#4 D:\CodeIgniter4-develop\app\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d...')
+#5 D:\CodeIgniter4-develop\system\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+#6 D:\CodeIgniter4-develop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+#7 D:\CodeIgniter4-develop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\CodeIgniter4-develop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\CodeIgniter4-develop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\CodeIgniter4-develop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\CodeIgniter4-develop\system\rewrite.php(44): require_once('D:\\CodeIgniter4...')
+#12 {main}
+CRITICAL - 2024-11-26 09:54:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'foodmart.users' doesn't exist
+[Method: GET, Route: foodmartAPI/ammarnfl/password]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\FoodmartAuth.php(10): CodeIgniter\Database\BaseConnection->query('SELECT name FROM users
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 2 APPPATH\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2024-11-26 09:54:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'foodmart.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM users
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM users
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 3 APPPATH\Models\FoodmartAuth.php(10): CodeIgniter\Database\BaseConnection->query('SELECT name FROM users
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 4 APPPATH\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2024-11-26 09:54:47 --> [Caused by] mysqli_sql_exception: Table 'foodmart.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FROM users
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM users
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM users
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 4 APPPATH\Models\FoodmartAuth.php(10): CodeIgniter\Database\BaseConnection->query('SELECT name FROM users
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 5 APPPATH\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+ERROR - 2024-11-26 09:55:46 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in D:\CodeIgniter4-develop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\CodeIgniter4-develop\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FRO...', 0)
+#1 D:\CodeIgniter4-develop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FRO...')
+#2 D:\CodeIgniter4-develop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FRO...')
+#3 D:\CodeIgniter4-develop\app\Models\FoodmartAuth.php(10): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#4 D:\CodeIgniter4-develop\app\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d...')
+#5 D:\CodeIgniter4-develop\system\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+#6 D:\CodeIgniter4-develop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+#7 D:\CodeIgniter4-develop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\CodeIgniter4-develop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\CodeIgniter4-develop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\CodeIgniter4-develop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\CodeIgniter4-develop\system\rewrite.php(44): require_once('D:\\CodeIgniter4...')
+#12 {main}
+CRITICAL - 2024-11-26 09:55:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+[Method: GET, Route: foodmartAPI/ammarnfl/password]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\FoodmartAuth.php(10): CodeIgniter\Database\BaseConnection->query('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 2 APPPATH\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2024-11-26 09:55:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 3 APPPATH\Models\FoodmartAuth.php(10): CodeIgniter\Database\BaseConnection->query('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 4 APPPATH\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2024-11-26 09:55:46 --> [Caused by] mysqli_sql_exception: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 4 APPPATH\Models\FoodmartAuth.php(10): CodeIgniter\Database\BaseConnection->query('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 5 APPPATH\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+ERROR - 2024-11-26 09:55:47 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in D:\CodeIgniter4-develop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\CodeIgniter4-develop\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FRO...', 0)
+#1 D:\CodeIgniter4-develop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FRO...')
+#2 D:\CodeIgniter4-develop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FRO...')
+#3 D:\CodeIgniter4-develop\app\Models\FoodmartAuth.php(10): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#4 D:\CodeIgniter4-develop\app\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d...')
+#5 D:\CodeIgniter4-develop\system\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+#6 D:\CodeIgniter4-develop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+#7 D:\CodeIgniter4-develop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\CodeIgniter4-develop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\CodeIgniter4-develop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\CodeIgniter4-develop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\CodeIgniter4-develop\system\rewrite.php(44): require_once('D:\\CodeIgniter4...')
+#12 {main}
+CRITICAL - 2024-11-26 09:55:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+[Method: GET, Route: foodmartAPI/ammarnfl/password]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\FoodmartAuth.php(10): CodeIgniter\Database\BaseConnection->query('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 2 APPPATH\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2024-11-26 09:55:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 3 APPPATH\Models\FoodmartAuth.php(10): CodeIgniter\Database\BaseConnection->query('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 4 APPPATH\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2024-11-26 09:55:47 --> [Caused by] mysqli_sql_exception: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 4 APPPATH\Models\FoodmartAuth.php(10): CodeIgniter\Database\BaseConnection->query('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 5 APPPATH\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+ERROR - 2024-11-26 10:00:21 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in D:\CodeIgniter4-develop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\CodeIgniter4-develop\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FRO...', 0)
+#1 D:\CodeIgniter4-develop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FRO...')
+#2 D:\CodeIgniter4-develop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FRO...')
+#3 D:\CodeIgniter4-develop\app\Models\FoodmartAuth.php(8): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#4 D:\CodeIgniter4-develop\app\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d...')
+#5 D:\CodeIgniter4-develop\system\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+#6 D:\CodeIgniter4-develop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+#7 D:\CodeIgniter4-develop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\CodeIgniter4-develop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\CodeIgniter4-develop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\CodeIgniter4-develop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\CodeIgniter4-develop\system\rewrite.php(44): require_once('D:\\CodeIgniter4...')
+#12 {main}
+CRITICAL - 2024-11-26 10:00:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+[Method: GET, Route: foodmartAPI/ammarnfl/password]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\FoodmartAuth.php(8): CodeIgniter\Database\BaseConnection->query('SELECT name FROM user WHERE email = \'.ammarnfl.\' AND password = \'.5f4dcc3b5aa765d61d8327deb882cf99.\'')
+ 2 APPPATH\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2024-11-26 10:00:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM user WHERE email = \'.ammarnfl.\' AND password = \'.5f4dcc3b5aa765d61d8327deb882cf99.\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM user WHERE email = \'.ammarnfl.\' AND password = \'.5f4dcc3b5aa765d61d8327deb882cf99.\'')
+ 3 APPPATH\Models\FoodmartAuth.php(8): CodeIgniter\Database\BaseConnection->query('SELECT name FROM user WHERE email = \'.ammarnfl.\' AND password = \'.5f4dcc3b5aa765d61d8327deb882cf99.\'')
+ 4 APPPATH\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2024-11-26 10:00:21 --> [Caused by] mysqli_sql_exception: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FROM user WHERE email = \'.ammarnfl.\' AND password = \'.5f4dcc3b5aa765d61d8327deb882cf99.\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM user WHERE email = \'.ammarnfl.\' AND password = \'.5f4dcc3b5aa765d61d8327deb882cf99.\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM user WHERE email = \'.ammarnfl.\' AND password = \'.5f4dcc3b5aa765d61d8327deb882cf99.\'')
+ 4 APPPATH\Models\FoodmartAuth.php(8): CodeIgniter\Database\BaseConnection->query('SELECT name FROM user WHERE email = \'.ammarnfl.\' AND password = \'.5f4dcc3b5aa765d61d8327deb882cf99.\'')
+ 5 APPPATH\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+ERROR - 2024-11-26 10:00:56 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in D:\CodeIgniter4-develop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\CodeIgniter4-develop\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FRO...', 0)
+#1 D:\CodeIgniter4-develop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FRO...')
+#2 D:\CodeIgniter4-develop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FRO...')
+#3 D:\CodeIgniter4-develop\app\Models\FoodmartAuth.php(10): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#4 D:\CodeIgniter4-develop\app\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d...')
+#5 D:\CodeIgniter4-develop\system\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+#6 D:\CodeIgniter4-develop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+#7 D:\CodeIgniter4-develop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\CodeIgniter4-develop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\CodeIgniter4-develop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\CodeIgniter4-develop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\CodeIgniter4-develop\system\rewrite.php(44): require_once('D:\\CodeIgniter4...')
+#12 {main}
+CRITICAL - 2024-11-26 10:00:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+[Method: GET, Route: foodmartAPI/ammarnfl/password]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\FoodmartAuth.php(10): CodeIgniter\Database\BaseConnection->query('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 2 APPPATH\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2024-11-26 10:00:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 3 APPPATH\Models\FoodmartAuth.php(10): CodeIgniter\Database\BaseConnection->query('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 4 APPPATH\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2024-11-26 10:00:56 --> [Caused by] mysqli_sql_exception: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 4 APPPATH\Models\FoodmartAuth.php(10): CodeIgniter\Database\BaseConnection->query('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 5 APPPATH\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+ERROR - 2024-11-26 10:00:57 --> mysqli_sql_exception: Unknown column 'email' in 'where clause' in D:\CodeIgniter4-develop\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\CodeIgniter4-develop\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FRO...', 0)
+#1 D:\CodeIgniter4-develop\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FRO...')
+#2 D:\CodeIgniter4-develop\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FRO...')
+#3 D:\CodeIgniter4-develop\app\Models\FoodmartAuth.php(10): CodeIgniter\Database\BaseConnection->query('SELECT name FRO...')
+#4 D:\CodeIgniter4-develop\app\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d...')
+#5 D:\CodeIgniter4-develop\system\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+#6 D:\CodeIgniter4-develop\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+#7 D:\CodeIgniter4-develop\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\CodeIgniter4-develop\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\CodeIgniter4-develop\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\CodeIgniter4-develop\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\CodeIgniter4-develop\system\rewrite.php(44): require_once('D:\\CodeIgniter4...')
+#12 {main}
+CRITICAL - 2024-11-26 10:00:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+[Method: GET, Route: foodmartAPI/ammarnfl/password]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\FoodmartAuth.php(10): CodeIgniter\Database\BaseConnection->query('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 2 APPPATH\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2024-11-26 10:00:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 3 APPPATH\Models\FoodmartAuth.php(10): CodeIgniter\Database\BaseConnection->query('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 4 APPPATH\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2024-11-26 10:00:57 --> [Caused by] mysqli_sql_exception: Unknown column 'email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 4 APPPATH\Models\FoodmartAuth.php(10): CodeIgniter\Database\BaseConnection->query('SELECT name FROM user
+        WHERE email = "ammarnfl"
+        AND password = "5f4dcc3b5aa765d61d8327deb882cf99"')
+ 5 APPPATH\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2024-11-26 10:02:23 --> ErrorException: Undefined variable $email
+[Method: GET, Route: foodmartAPI/ammarnfl/password]
+in APPPATH\Models\FoodmartAuth.php on line 8.
+ 1 APPPATH\Models\FoodmartAuth.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'D:\\CodeIgniter4-develop\\app\\Models\\FoodmartAuth.php', 8)
+ 2 APPPATH\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2024-11-26 10:02:25 --> ErrorException: Undefined variable $email
+[Method: GET, Route: foodmartAPI/ammarnfl/password]
+in APPPATH\Models\FoodmartAuth.php on line 8.
+ 1 APPPATH\Models\FoodmartAuth.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'D:\\CodeIgniter4-develop\\app\\Models\\FoodmartAuth.php', 8)
+ 2 APPPATH\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2024-11-26 10:02:30 --> ErrorException: Undefined variable $email
+[Method: GET, Route: foodmartAPI/ammarnfl/password]
+in APPPATH\Models\FoodmartAuth.php on line 8.
+ 1 APPPATH\Models\FoodmartAuth.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'D:\\CodeIgniter4-develop\\app\\Models\\FoodmartAuth.php', 8)
+ 2 APPPATH\Controllers\FoodmartAPI.php(13): App\Models\FoodmartAuth->getDataAuthentication('ammarnfl', '5f4dcc3b5aa765d61d8327deb882cf99')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\FoodmartAPI->index('ammarnfl', 'password')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FoodmartAPI))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-11-26 10:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-26 10:08:44 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "admin""
+[Method: GET, Route: foodmartAPI/admin%22/password]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('foodmartAPI/admin"/password')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('foodmartAPI/admin"/password')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2024-11-26 10:09:20 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "admin" OR "1"="1"
+[Method: GET, Route: foodmartAPI/admin%22%20OR%20%221%22=%221/password]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('foodmartAPI/admin" OR "1"="1/password')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('foodmartAPI/admin" OR "1"="1/password')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+CRITICAL - 2024-11-26 10:09:57 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: """
+[Method: GET, Route: foodmartAPI/%22/password]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('foodmartAPI/"/password')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('foodmartAPI/"/password')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\CodeIgniter4-develop\\public\\index.php')
+DEBUG - 2024-11-26 10:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-11-26 10:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
