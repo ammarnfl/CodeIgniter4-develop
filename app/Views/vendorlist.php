@@ -3,8 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - Tripify</title>
+    <title>Vendor - Tripify</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script>
+        function filterVendors() {
+            const input = document.getElementById("searchInput").value.toLowerCase();
+            const vendors = document.querySelectorAll(".list-group-item");
+
+            vendors.forEach(vendor => {
+                const namaVendor = vendor.getAttribute("data-nama-vendor");
+                if (namaVendor.includes(input)) {
+                    vendor.style.display = "";
+                } else {
+                    vendor.style.display = "none";
+                }
+            });
+        }
+    </script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -26,29 +41,24 @@
     </nav>
 
     <div class="container mt-4">
-        <h1 class="text-center">Selamat Datang di Tripify</h1>
-        <p class="text-center">Platform sewa mobil terbaik untuk menjelajahi keindahan Bandung!</p>
+        <h1 class="text-center">Vendor</h1>
+        
+        <!-- Input Pencarian -->
+        <div class="mt-3">
+            <input type="text" id="searchInput" class="form-control" placeholder="Cari berdasarkan nama vendor..." onkeyup="filterVendors()">
+        </div>
 
-        <div id="carouselExample" class="carousel slide mt-4" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/image1.jpg" class="d-block w-100" alt="Mobil 1">
+        <div class="list-group mt-4">
+            <?php foreach ($vendors as $vendor): ?>
+                <div class="list-group-item" data-nama-vendor="<?= strtolower($vendor['nama_vendor']) ?>">
+                    <h4 class="mb-1"><?= $vendor['nama_vendor'] ?></h4>
+                    <h6 class="mb-1"><?= $vendor['deskripsi'] ?></h6>
+                    <p class="mb-1">
+                        <strong>Alamat:</strong> <?= $vendor['alamat'] ?><br>
+                        <strong>Nomor Telepon:</strong> <?= $vendor['nomor_telepon'] ?>
+                    </p>
                 </div>
-                <div class="carousel-item">
-                    <img src="images/image2.jpg" class="d-block w-100" alt="Mobil 2">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/image3.jpg" class="d-block w-100" alt="Mobil 3">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            <?php endforeach; ?>
         </div>
     </div>
 

@@ -14,6 +14,6 @@ class Home extends BaseController
         if (session()->get('num_user') == '') {
             return redirect()->to('/login');
         }     
-        return view('header').view('menu').view('dashboard').view('footer');
+        return view('dashboard');
     }
 }
