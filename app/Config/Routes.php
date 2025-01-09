@@ -9,17 +9,12 @@ $routes->get('/', 'Home::index');
 $routes->get('/login', 'LoginController::index');
 $routes->get('/logout', 'LoginController::logout');
 $routes->post('/login_action', 'LoginController::login_action');
+$routes->get('/register', 'RegisterController::register');
+$routes->post('/register_action', 'RegisterController::register_action');
 $routes->get('/dashboard', 'DashboardController::index');
 $routes->get('/rent-cars', 'RentCarController::index');
 $routes->get('/vendors', 'VendorController::index');
 $routes->get('/recommendations', 'RecommendationController::index');
-
-
-
-
-
-
-
 
 
 

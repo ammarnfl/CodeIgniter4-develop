@@ -1,9 +1,6 @@
 <?php
-
 namespace App\Controllers;
-
 use App\Models\RentCar;
-
 class RentCarController extends BaseController
 {
     public function index()

@@ -1,9 +1,6 @@
 <?php
-
 namespace App\Controllers;
-
 use App\Models\Vendor;
-
 class VendorController extends BaseController
 {
     public function index()
