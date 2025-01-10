@@ -3,52 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - Tripify</title>
+    <title>Dashboard - TripWalk</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .call-to-action {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            margin-top: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .call-to-action img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .cta-btn {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .cta-btn:hover {
+            background-color: #0056b3;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="/">Tripify</a>
+            <a class="navbar-brand" href="dashboardA">TripWalk</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="/">Dashboard</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/rent-cars">Daftar Mobil</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/vendors">Vendor</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/recommendations">Rekomendasi Wisata</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/logout">Logout</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="dashboardA">Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="rent-cars">Daftar Mobil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="vendors">Vendor</a></li>
+                    <li class="nav-item"><a class="nav-link" href="logout">Logout</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <div class="container mt-4">
-        <h1 class="text-center">Selamat Datang di Tripify</h1>
+        <h1 class="text-center">Selamat Datang di TripWalk</h1>
         <p class="text-center">Platform sewa mobil terbaik untuk menjelajahi keindahan Bandung!</p>
 
-        <div id="carouselExample" class="carousel slide mt-4" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/image1.jpg" class="d-block w-100" alt="Mobil 1">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/image2.jpg" class="d-block w-100" alt="Mobil 2">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/image3.jpg" class="d-block w-100" alt="Mobil 3">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+        <div class="call-to-action">
+            <h3>Jelajahi Keindahan Bandung dengan Sewa Mobil!</h3>
+            <p>
+                Dengan menyewa mobil, Anda dapat menikmati kebebasan menjelajahi destinasi wisata tanpa batasan waktu. 
+                Nikmati kenyamanan, hemat biaya transportasi, dan ciptakan momen tak terlupakan bersama keluarga atau teman. 
+                Jangan lewatkan kesempatan untuk berwisata dengan cara yang lebih praktis dan efisien!
+            </p>
+            <button class="cta-btn" onclick="window.location.href='rent-cars';">Sewa Mobil Sekarang!</button>
         </div>
     </div>
 

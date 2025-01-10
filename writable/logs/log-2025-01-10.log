@@ -23,3 +23,90 @@ in SYSTEMPATH\Session\Handlers\FileHandler.php on line 103.
 20 SYSTEMPATH\rewrite.php(44): require_once('D:\\OneDrive - Institut Teknologi Bandung\\SEMESTER 5\\TEKNOLOGI SISTEM TERINTEGRASI\\tripwalk\\public\\index.php')
 DEBUG - 2025-01-10 10:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2025-01-10 10:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-10 10:37:09 --> mysqli_sql_exception: Table 'tripify.account' doesn't exist in D:\OneDrive - Institut Teknologi Bandung\SEMESTER 5\TEKNOLOGI SISTEM TERINTEGRASI\tripwalk\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\OneDrive - Institut Teknologi Bandung\SEMESTER 5\TEKNOLOGI SISTEM TERINTEGRASI\tripwalk\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT fullname...', 0)
+#1 D:\OneDrive - Institut Teknologi Bandung\SEMESTER 5\TEKNOLOGI SISTEM TERINTEGRASI\tripwalk\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT fullname...')
+#2 D:\OneDrive - Institut Teknologi Bandung\SEMESTER 5\TEKNOLOGI SISTEM TERINTEGRASI\tripwalk\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT fullname...')
+#3 D:\OneDrive - Institut Teknologi Bandung\SEMESTER 5\TEKNOLOGI SISTEM TERINTEGRASI\tripwalk\app\Models\Login.php(12): CodeIgniter\Database\BaseConnection->query('SELECT fullname...')
+#4 D:\OneDrive - Institut Teknologi Bandung\SEMESTER 5\TEKNOLOGI SISTEM TERINTEGRASI\tripwalk\app\Controllers\LoginController.php(12): App\Models\Login->getDataUsers('ammarnfl', 'e10adc3949ba59a...')
+#5 D:\OneDrive - Institut Teknologi Bandung\SEMESTER 5\TEKNOLOGI SISTEM TERINTEGRASI\tripwalk\system\CodeIgniter.php(933): App\Controllers\LoginController->login_action()
+#6 D:\OneDrive - Institut Teknologi Bandung\SEMESTER 5\TEKNOLOGI SISTEM TERINTEGRASI\tripwalk\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 D:\OneDrive - Institut Teknologi Bandung\SEMESTER 5\TEKNOLOGI SISTEM TERINTEGRASI\tripwalk\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\OneDrive - Institut Teknologi Bandung\SEMESTER 5\TEKNOLOGI SISTEM TERINTEGRASI\tripwalk\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 D:\OneDrive - Institut Teknologi Bandung\SEMESTER 5\TEKNOLOGI SISTEM TERINTEGRASI\tripwalk\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\OneDrive - Institut Teknologi Bandung\SEMESTER 5\TEKNOLOGI SISTEM TERINTEGRASI\tripwalk\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\OneDrive - Institut Teknologi Bandung\SEMESTER 5\TEKNOLOGI SISTEM TERINTEGRASI\tripwalk\system\rewrite.php(44): require_once('D:\\OneDrive - I...')
+#12 {main}
+CRITICAL - 2025-01-10 10:37:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'tripify.account' doesn't exist
+[Method: POST, Route: login_action]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\Login.php(12): CodeIgniter\Database\BaseConnection->query('SELECT fullname FROM account WHERE 
+                        username = "ammarnfl" 
+                        AND password = "e10adc3949ba59abbe56e057f20f883e"')
+ 2 APPPATH\Controllers\LoginController.php(12): App\Models\Login->getDataUsers('ammarnfl', 'e10adc3949ba59abbe56e057f20f883e')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login_action()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\OneDrive - Institut Teknologi Bandung\\SEMESTER 5\\TEKNOLOGI SISTEM TERINTEGRASI\\tripwalk\\public\\index.php')
+CRITICAL - 2025-01-10 10:37:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'tripify.account' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT fullname FROM account WHERE 
+                        username = "ammarnfl" 
+                        AND password = "e10adc3949ba59abbe56e057f20f883e"')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT fullname FROM account WHERE 
+                        username = "ammarnfl" 
+                        AND password = "e10adc3949ba59abbe56e057f20f883e"')
+ 3 APPPATH\Models\Login.php(12): CodeIgniter\Database\BaseConnection->query('SELECT fullname FROM account WHERE 
+                        username = "ammarnfl" 
+                        AND password = "e10adc3949ba59abbe56e057f20f883e"')
+ 4 APPPATH\Controllers\LoginController.php(12): App\Models\Login->getDataUsers('ammarnfl', 'e10adc3949ba59abbe56e057f20f883e')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login_action()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\OneDrive - Institut Teknologi Bandung\\SEMESTER 5\\TEKNOLOGI SISTEM TERINTEGRASI\\tripwalk\\public\\index.php')
+CRITICAL - 2025-01-10 10:37:09 --> [Caused by] mysqli_sql_exception: Table 'tripify.account' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT fullname FROM account WHERE 
+                        username = "ammarnfl" 
+                        AND password = "e10adc3949ba59abbe56e057f20f883e"', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT fullname FROM account WHERE 
+                        username = "ammarnfl" 
+                        AND password = "e10adc3949ba59abbe56e057f20f883e"')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT fullname FROM account WHERE 
+                        username = "ammarnfl" 
+                        AND password = "e10adc3949ba59abbe56e057f20f883e"')
+ 4 APPPATH\Models\Login.php(12): CodeIgniter\Database\BaseConnection->query('SELECT fullname FROM account WHERE 
+                        username = "ammarnfl" 
+                        AND password = "e10adc3949ba59abbe56e057f20f883e"')
+ 5 APPPATH\Controllers\LoginController.php(12): App\Models\Login->getDataUsers('ammarnfl', 'e10adc3949ba59abbe56e057f20f883e')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login_action()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\OneDrive - Institut Teknologi Bandung\\SEMESTER 5\\TEKNOLOGI SISTEM TERINTEGRASI\\tripwalk\\public\\index.php')
+DEBUG - 2025-01-10 10:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 10:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 10:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 10:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 10:38:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 10:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 10:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 10:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 10:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 10:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 10:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 10:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 10:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 10:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 10:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 10:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-10 10:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

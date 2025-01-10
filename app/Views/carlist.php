@@ -33,10 +33,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link active" href="/">Dashboard</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/rent-cars">Daftar Mobil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/">Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/rent-cars">Daftar Mobil</a></li>
                     <li class="nav-item"><a class="nav-link" href="/vendors">Vendor</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/recommendations">Rekomendasi Wisata</a></li>
                     <li class="nav-item"><a class="nav-link" href="/logout">Logout</a></li>
                 </ul>
             </div>
